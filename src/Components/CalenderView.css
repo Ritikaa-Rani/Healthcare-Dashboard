@@ -1,0 +1,102 @@
+.calendar-container {
+  max-width: 450px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+  font-size: 15px;
+  color: #1f2937;
+}
+
+.nav-arrows span {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 6px;
+  color: #6366f1;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.calendar-day {
+  font-weight: 600;
+  color: #6b7280;
+  text-align: center;
+}
+
+.calendar-cell {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+.calendar-cell.selected {
+  background: #eef2ff;
+  border: 2px solid #6366f1;
+}
+
+.calendar-date {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.calendar-time {
+  background: #e0e7ff;
+  color: #3730a3;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  margin: 2px 0;
+  display: inline-block;
+}
+
+.appointments-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.appointment {
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.appointment h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.appointment p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.appointment small {
+  font-size: 12px;
+}
+
+.appointment.dentist {
+  background: #4338ca;
+}
+
+.appointment.physio {
+  background: #c0c5ed;
+  color: #0b09147e;
+}
