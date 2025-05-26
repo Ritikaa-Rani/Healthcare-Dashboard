@@ -1,16 +1,16 @@
-import './App.css'
-import Header from './Components/Header'
-import Sidebar from './Components/Sidebar'
-
+import "./App.css";
+import DashboardMainContent from "./Components/DashboardMainContent";
+import Header from "./Components/Header";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <Sidebar/>
+      <Header />
+      <Sidebar />
+      <DashboardMainContent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

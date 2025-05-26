@@ -1,0 +1,37 @@
+.anatomy-container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.anatomy-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.indicator {
+  position: absolute;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.indicator.heart {
+  top: 23%;
+  right: 5px;
+  background-color: #4f46e5; 
+}
+
+.indicator.leg {
+  bottom: 30%;
+  background-color: #06b6d4;
+}
