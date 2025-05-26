@@ -1,0 +1,22 @@
+.appointment-card {
+  background-color: #eaefff;
+  padding: 12px 16px;
+  border-radius: 16px;
+  width: fit-content;
+  min-width: 160px;
+  margin: 6px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  font-family: 'Inter', sans-serif;
+}
+
+.appointment-title {
+  font-weight: 600;
+  color: #3730a3;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.appointment-time {
+  font-size: 10px;
+  color: #4b5563;
+}

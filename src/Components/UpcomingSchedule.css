@@ -1,0 +1,30 @@
+.upcoming-schedule-container {
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.schedule-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.schedule-day-group {
+  margin-bottom: 24px;
+}
+
+.schedule-day {
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.schedule-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
