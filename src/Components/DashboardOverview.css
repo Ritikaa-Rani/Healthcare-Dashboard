@@ -1,18 +1,17 @@
 .dashboard-heading{
     display: flex;
     align-items: center;
-    gap: 450px;
+    gap: 250px;
     
 }
 
 .dashboard-overview {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 50px;
 }
 
 p{
-    font-size: 15px;
+    font-size: 12px;
     color: #7b7e83;;
 }

@@ -1,0 +1,34 @@
+.dashboard-main {
+  padding: 32px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.dashboard-grid {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.left-column {
+  flex: 1;
+  max-width: 480px;
+}
+
+.right-column {
+  flex: 2;
+  min-width: 580px;
+}
+
+.right-right-column{
+    margin-left: 250px;
+}

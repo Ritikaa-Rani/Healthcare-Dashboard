@@ -2,14 +2,25 @@ import React from "react";
 import DashboardOverview from "./DashboardOverview";
 import CalendarView from "./CalenderView";
 import UpcomingSchedule from "./UpcomingSchedule";
+import ActivityFeed from "./ActivityFeed";
+import "./DashboardMainContent.css";
 
 const DashboardMainContent = () => {
   return (
-    <>
-      <DashboardOverview />
-      <CalendarView />
-      <UpcomingSchedule />
-    </>
+    <div className="dashboard-main">
+      <div className="dashboard-grid">
+        <div className="left-column">
+          <DashboardOverview />
+          <ActivityFeed />
+        </div>
+        <div className="right-column">
+          <CalendarView />
+          <div className="right-right-column">
+          <UpcomingSchedule />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
