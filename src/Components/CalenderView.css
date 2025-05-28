@@ -1,18 +1,16 @@
 .calendar-container {
   max-width: 450px;
-  margin: 0 auto;
-  background: #fff;
+  margin: -10px auto;
   border-radius: 16px;
   padding: 20px;
   font-family: 'Inter', sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .calendar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .calendar-header h2 {

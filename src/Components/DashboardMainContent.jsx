@@ -15,9 +15,7 @@ const DashboardMainContent = () => {
         </div>
         <div className="right-column">
           <CalendarView />
-          <div className="right-right-column">
           <UpcomingSchedule />
-          </div>
         </div>
       </div>
     </div>

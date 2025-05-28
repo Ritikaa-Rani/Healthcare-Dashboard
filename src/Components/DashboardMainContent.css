@@ -1,34 +1,38 @@
 .dashboard-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   padding: 32px;
   background-color: #f8fafc;
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .dashboard-grid {
   display: flex;
-  gap: 32px;
+  gap: 20px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.left-column,
-.right-column {
+.left-column {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.left-column {
+.left-column,
+.right-column {
   flex: 1;
-  max-width: 480px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .right-column {
-  flex: 2;
-  min-width: 580px;
-}
-
-.right-right-column{
-    margin-left: 250px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

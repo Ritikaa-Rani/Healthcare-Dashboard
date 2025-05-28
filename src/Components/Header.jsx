@@ -1,4 +1,3 @@
-// src/components/Header.jsx
 import React from "react";
 import "./Header.css";
 import { CiSearch } from "react-icons/ci";
@@ -7,11 +6,6 @@ import { GoBellFill } from "react-icons/go";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-left">
-        <h1 className="logo">
-          <span>Health</span>care.
-        </h1>
-      </div>
       <div className="header-center">
         <div className="search-wrapper">
           <span className="search-icon">

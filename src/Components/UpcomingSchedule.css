@@ -1,8 +1,10 @@
 .upcoming-schedule-container {
   padding: 20px;
-  background-color: #f9fafb;
-  border-radius: 20px;
   font-family: 'Inter', sans-serif;
+  border-radius: 12px; 
+  width: 100%; 
+  box-sizing: border-box; 
+  
 }
 
 .schedule-title {

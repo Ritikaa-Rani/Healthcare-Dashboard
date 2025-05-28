@@ -1,14 +1,13 @@
 .dashboard-heading{
     display: flex;
     align-items: center;
-    gap: 250px;
+    gap: 380px;
     
 }
 
 .dashboard-overview {
   display: flex;
-  align-items: center;
-  gap: 50px;
+  gap: 5px;
 }
 
 p{

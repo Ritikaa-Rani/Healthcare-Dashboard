@@ -15,6 +15,9 @@ const Sidebar = () => {
   return (
     <>
       <div className="sidebar">
+        <h1 className="sidebar-logo">
+          <span>Health</span>care.
+        </h1>
         <div className="sidebar-section">
           <p className="sidebar-heading">General</p>
           <SidebarItem icon={<FaTachometerAlt />} label="Dashboard" active />

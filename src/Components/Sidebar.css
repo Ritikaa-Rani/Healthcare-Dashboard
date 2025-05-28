@@ -9,6 +9,17 @@
   border-right: 1px solid #e5e7eb;
 }
 
+.sidebar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-logo span {
+  color: #00cfe8;
+}
+
 .sidebar-section {
   margin-bottom:  10px;
 }
